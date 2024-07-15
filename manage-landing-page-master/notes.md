@@ -8,3 +8,10 @@ git add .
 
 step 3:
 git commit -m ""
+
+BRANCHING STEPS
+git branch (name of branch here without the brackets)
+
+git branch -a (to view all the available branches)
+
+git switch or git checkout (branch name here without the brackets)
