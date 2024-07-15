@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Manage landing page</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+  </style>
+</head>
+<body>
+  <nav class=" bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 py-3">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pt-10 px-5">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./images/logo.svg" class="h-8" alt="Flowbite Logo">
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="bg-orange-500 py-2 px-6 rounded-full text-white">Get started</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-gray-500 md:p-0">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-gray-500 md:p-0">Product</a>
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-gray-500 md:p-0">About Us</a>
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-gray-500 md:p-0">Career</a>
+        <li>
+          <a href="#" class="block py-2 px-3 hover:text-gray-500 md:p-0">Commuinty</a>   
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <div class="flex flex-wrap pt-36 items-center justify-between px-6">
+    <div>
+         <h1 class="font-bold text-5xl mb-10 text-blue-900">Bring everyone <br>
+          together to build <br>
+          better products.</h1>
+         <p class="mb-10"> Manage makes it simple for software teams <br>
+          to plan day-to-day tasks while keeping the <br> larger team goals in view.</p>
+          <button type="button" class="bg-orange-500 py-2 px-6 rounded-full text-white">Get started</button>
+    </div>
+    <img src="./images/illustration-intro.svg" alt="">
+  </div>
+  <div class="flex flex-wrap justify-between px-6">
+    <div>
+      <h1 class="font-bold text-4xl mb-10 text-blue-900">
+        Whats's different about <br>
+        manage?
+      </h1>
+      <p>
+        Manage provides all the functionality your <br>
+        team needs, without the complexity. Our <br>
+         software is tailor-made for modern digital <br>
+        product teams. 
+      </p>
+    </div>
+    <div>
+      <div class="mb-10 flex flex-wrap">
+      <p class="bg-orange-500 p-2 w-20 h-10 mr-5 text-center rounded-full text-white">01</p>
+      <div>
+      <h1 class="text-blue-900 font-semibold">Track company-wide progress</h1>
+      <p>See how your day-to-day tasks fit into the wider vision. <br>
+        Go from tracking progress at the milestone level all the  way <br>
+        done to the smallest of details. Never lose sight of the bigger picture again.
+      </p>
+      </div>
+       </div>
+      <div class="mb-10 flex flex-wrap">
+      <p class="bg-orange-500 p-2 w-20 h-10 mr-5 text-center rounded-full text-white">02</p>
+      <div>
+      <h1 class="text-blue-900 font-semibold">Advanced built-in reports</h1>
+      <p>Set internal delivery estimates and track progress toward <br>
+        company goals. Our customisable dashboard helps you build <br>
+        out the reports you need to keep key stakeholders informed.      
+      </p>
+        </div>
+       </div>
+      <div class="mb-10 flex flex-wrap">
+      <p class="bg-orange-500 p-2 w-20 h-10 mr-5 text-center rounded-full text-white">03</p>
+      <div>
+      <h1 class="text-blue-900 font-semibold"> Everything you need in one place</h1>
+      <p>  Stop jumping from one service to another to <br>
+        communicate, store files, track tasks and share <br>
+        documents. Manage offers an all-in-one team productivity solution.
+      </p>
+      </div>
+       </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center">
+    <h1 class="mb-10 text-5xl font-semibold text-blue-900">
+      What they've said
+    </h1>
+    <div class="flex">
+      <div class="flex flex-col items-center text-center">
+         <img src="./images/avatar-anisha.png" alt="" class="h-20 w-20 mb-5">
+        <p>  Anisha Li </p>
+        <p>"Manage has supercharged our team’s workflow. The <br>
+          ability to maintain visibility on larger milestones <br>
+          at all times keeps everyone motivated."</p>
+        </div>
+      <div class="flex flex-col items-center text-center">
+         <img src="./images/avatar-ali.png" alt="" class="h-20 w-20 mb-5">
+        <p>   Ali Bravo </p>
+        <p>"We have been able to cancel so many other subscriptions <br>
+          since using Manage. There is no more cross-channel confusion <br>
+          and everyone is much more focused."</p>
+        </div>
+      <div class="flex flex-col items-center text-center">
+         <img src="./images/avatar-richard.png" alt="" class="h-20 w-20 mb-5">
+        <p>  Richard Watts </p>
+        <p>"Manage allows us to provide structure and process. It keeps <br>
+          us organized and focused. I can’t stop recommending them to <br>
+          everyone I talk to!"</p>
+        </div>
+    </div>
+    <div>
+    <button type="button" class="bg-orange-500 py-2 px-6 rounded-full text-white">Get started</button>
+    </div>
+  </div>
+  <!-- Pricing
+  Product
+  About Us
+  Careers
+  Community
+
+  Get Started
+
+  
+
+ 
+
+  Get Started
+
+  What’s different about Manage?
+
+  Manage provides all the functionality your team needs, without 
+  the complexity. Our software is tailor-made for modern digital 
+  product teams. 
+
+  01
+  Track company-wide progress
+  
+  02
+  
+  
+  03
+ 
+
+
+  What they’ve said
+
+  Anisha Li
+  “Manage has supercharged our team’s workflow. The ability to maintain 
+  visibility on larger milestones at all times keeps everyone motivated.”
+
+ 
+  “”
+
+  
+  “”
+
+  Shanai Gough
+  “Their software allows us to track, manage and collaborate on our projects 
+  from anywhere. It keeps the whole team in-sync without being intrusive.”
+
+  Get Started
+
+  Simplify how your team works today.
+  Get Started
+
+  Home
+  Pricing
+  Products
+  About Us
+  Careers
+  Community
+  Privacy Policy
+
+  Updates in your inbox…
+  Go
+
+  Copyright 2020. All Rights Reserved
+
+   -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+</body>
+</html>
